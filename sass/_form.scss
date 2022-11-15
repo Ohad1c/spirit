@@ -1,0 +1,21 @@
+.form {
+  font-size: 18px;
+
+  input.form-control {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    text-align: right;
+    font-size: 18px;
+    color: $color-grey-3;
+    border: 1.5px solid $color-white;
+    line-height: 41px;
+
+    &::placeholder {
+      color: $color-grey-3;
+    }
+
+    @media only screen and (max-width: 992px) {
+      line-height: 37px;
+    }
+  }
+}

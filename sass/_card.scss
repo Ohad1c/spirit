@@ -1,0 +1,87 @@
+.card {
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: translateY(-0.7rem);
+
+    .card-title {
+      color: $color-primary;
+      text-decoration: underline;
+    }
+
+    .card-link,
+    .card-link:visited {
+      color: $color-primary;
+    }
+
+    svg path {
+      fill: $color-primary;
+    }
+  }
+
+  .card-img-top {
+    height: 290px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    @media only screen and (max-width: 992px) {
+      height: 190px;
+    }
+  }
+
+  .card-body {
+    margin-top: -73px;
+    font-size: 18px;
+  }
+
+  .card-date {
+    background-color: $color-primary;
+    border-radius: 4px;
+    color: $color-white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: normal;
+
+    @media only screen and (max-width: 992px) {
+      font-size: 16px;
+      line-height: 25px;
+    }
+
+    .card-day {
+      font-size: 34px;
+
+      @media only screen and (max-width: 992px) {
+        font-size: 28px;
+        padding-inline: 2px;
+      }
+    }
+  }
+
+  .card-title {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 32px;
+
+    @media only screen and (max-width: 992px) {
+      font-size: 20px;
+    }
+  }
+
+  .card-text {
+    color: $color-grey-1;
+
+    @media only screen and (max-width: 992px) {
+      font-size: 16px;
+    }
+  }
+
+  .card-link,
+  .card-link:visited {
+    color: $color-black;
+    font-weight: 500;
+    text-underline-offset: 5px;
+  }
+}

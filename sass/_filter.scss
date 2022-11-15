@@ -1,0 +1,29 @@
+.selected-filters {
+  position: relative;
+
+  @media only screen and (max-width: 992px) {
+    white-space: nowrap;
+    overflow: auto;
+    direction: rtl;
+  }
+
+  .btn {
+    color: $color-grey-1;
+    border: 1px solid $color-grey-1;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-inline: 19px;
+    // font-size: 16px;
+
+    @media only screen and (max-width: 992px) {
+      font-size: 13px;
+    }
+
+    &:hover {
+      color: $color-primary;
+      border: 1px solid $color-primary;
+      font-weight: 600;
+    }
+  }
+}

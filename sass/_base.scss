@@ -1,0 +1,21 @@
+// // COLOR VARIABLES
+$color-primary: #00acc6;
+$color-white: white;
+$color-black: black;
+$color-black-lighter: #4b4b4b;
+$color-grey-1: #777777;
+$color-grey-2: #d4d4d4;
+$color-grey-3: #d5d5d5;
+
+body {
+  font-family: "Inter", sans-serif;
+  color: $color-black;
+}
+
+.container {
+  @media only screen and (min-width: 1200px) {
+    &.container-16 {
+      max-width: 1620px;
+    }
+  }
+}

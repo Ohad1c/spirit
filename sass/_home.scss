@@ -1,0 +1,65 @@
+.showcase-section {
+  background: url(../img/hero-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  color: $color-white;
+
+  @media only screen and (max-width: 992px) {
+    background-position: 68% 105%;
+    background-size: inherit;
+  }
+
+  span {
+    font-size: 30px;
+    // font-weight: 500;
+
+    @media only screen and (max-width: 992px) {
+      font-size: 26px;
+    }
+  }
+
+  h1 {
+    font-size: 70px;
+    // font-weight: 500;
+
+    @media only screen and (max-width: 992px) {
+      font-size: 50px;
+    }
+  }
+
+  .btn {
+    border-radius: 30px;
+    font-size: 18px;
+  }
+}
+
+.list-results-section {
+  background-color: rgb(225, 224, 224);
+}
+
+.form-section {
+  background: url(../img/form-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .heading-2 {
+    max-width: 925px;
+  }
+
+  &__call-us {
+    color: $color-white;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+
+    a {
+      color: $color-white;
+      font-weight: 600;
+    }
+  }
+}
+
+.features-section {
+  background-color: rgb(225, 224, 224);
+}
