@@ -1,14 +1,15 @@
 .card {
   border-radius: 10px;
   border: none;
-  transition: transform 0.3s;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.1);
+  // transition: transform 0.3s;
 
   &:hover {
-    transform: translateY(-0.7rem);
+    // transform: translateY(-0.7rem);
 
     .card-title {
       color: $color-primary;
-      text-decoration: underline;
+      // text-decoration: underline;
     }
 
     .card-link,
