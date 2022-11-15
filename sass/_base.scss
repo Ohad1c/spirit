@@ -1,4 +1,4 @@
-// // COLOR VARIABLES
+// COLOR VARIABLES
 $color-primary: #00acc6;
 $color-white: white;
 $color-black: black;
@@ -6,6 +6,13 @@ $color-black-lighter: #4b4b4b;
 $color-grey-1: #777777;
 $color-grey-2: #d4d4d4;
 $color-grey-3: #d5d5d5;
+
+// font
+@font-face {
+  font-family: almonidlaaa;
+  src: url(../fonts/almonidlaaa.woff) format(truetype);
+  font-weight: thin;
+}
 
 body {
   font-family: "Inter", sans-serif;
