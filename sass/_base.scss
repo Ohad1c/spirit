@@ -19,3 +19,17 @@ body {
     }
   }
 }
+
+// utilities
+.slide-row {
+  @media only screen and (max-width: 992px) {
+    display: inline-flex!important;
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: auto;
+    max-width: 100%;
+    position: relative;
+    flex-wrap: nowrap;
+    direction: rtl;
+  }
+}
